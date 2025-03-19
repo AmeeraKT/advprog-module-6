@@ -33,7 +33,7 @@ This line creates and formats the HTTP response `let response = format!("{status
 Resulting in a HTTP response with the status line from above, header as content length and body as contents of `hello.html`.
 
 Finally, the HTTP response is written and sent to the client. 
-![Reflection 2 Image](hello/images/Reflection2.jpg)
+![Reflection 2 Image](https://github.com/AmeeraKT/advprog-module-6/blob/master/images/Reflection2.jpg)
 
 ### Commit 3 Reflection
 
@@ -49,7 +49,7 @@ The rest of the code follows the same process as the previous commit.
 #### Why do refactoring?
 There are a lot of lines in the code that can be simplified for better readability and maintainability. For example, instead of assigning the file to be read in a different line, it can be associated with its respective status line and request line.
 As shown in the IF statement, `"GET / HTTP/1.1"` is associated with `hello.html` and `"HTTP/1.1 200 OK"`. While `404.html` is associated with other request lines and the status `"HTTP/1.1 404 NOT FOUND"`.
-![Reflection 3 Image](hello/images/Reflection3.jpg)
+![Reflection 3 Image](https://github.com/AmeeraKT/advprog-module-6/blob/master/images/Reflection3.jpg)
 
 
 ### Commit 4 Reflection
